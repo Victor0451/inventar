@@ -14,24 +14,21 @@ import styles from "/styles/jss/nextjs-material-kit/pages/landingPageSections/wo
 
 const useStyles = makeStyles(styles);
 
-export default function WorkSection() {
+export default function ContactSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
+          <h2 className={classes.title}>Contactanos.</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
-            hours.
+            Si te interesa nuestros servicios, podes contactarnos para mas informacion.
           </h4>
           <form>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Name"
+                  labelText="Nombre"
                   id="name"
                   formControlProps={{
                     fullWidth: true
@@ -40,7 +37,7 @@ export default function WorkSection() {
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Email"
+                  labelText="Email"
                   id="email"
                   formControlProps={{
                     fullWidth: true
@@ -48,7 +45,7 @@ export default function WorkSection() {
                 />
               </GridItem>
               <CustomInput
-                labelText="Your Message"
+                labelText="Mensaje"
                 id="message"
                 formControlProps={{
                   fullWidth: true,
@@ -60,7 +57,7 @@ export default function WorkSection() {
                 }}
               />
               <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="primary">Send Message</Button>
+                <Button color="primary">Enviar</Button>
               </GridItem>
             </GridContainer>
           </form>

@@ -19,12 +19,23 @@ export default function SectionExamples() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
+
+
+        <GridContainer className={classes.textCenter} justify="center">
+          <GridItem xs={12} sm={12} md={8}>
+            <h2>Nuestros Servicios</h2>
+          </GridItem>
+        </GridContainer>
+
+        <br />
+        <br />
+
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={6}>
-            <Link href="/landing">
+            <Link href="/proyectos">
               <a className={classes.link}>
                 <img
-                  src="/img/landing.jpg"
+                  src="/img/proyectos.webp"
                   alt="..."
                   className={
                     classes.imgRaised +
@@ -35,16 +46,16 @@ export default function SectionExamples() {
                   }
                 />
                 <Button color="primary" size="lg" simple>
-                  View landing page
+                  Proyectos
                 </Button>
               </a>
             </Link>
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
-            <Link href="/profile">
+            <Link href="/logistica">
               <a className={classes.link}>
                 <img
-                  src="/img/profile.jpg"
+                  src="/img/logistica.webp"
                   alt="..."
                   className={
                     classes.imgRaised +
@@ -55,8 +66,7 @@ export default function SectionExamples() {
                   }
                 />
                 <Button color="primary" size="lg" simple>
-                  View profile page
-                </Button>
+                  Logistica </Button>
               </a>
             </Link>
           </GridItem>

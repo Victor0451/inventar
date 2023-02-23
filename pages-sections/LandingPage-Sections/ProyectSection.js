@@ -15,13 +15,13 @@ import styles from "/styles/jss/nextjs-material-kit/pages/landingPageSections/pr
 
 const useStyles = makeStyles(styles);
 
-export default function ProductSection() {
+export default function ProyectSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>Estos son nuestros proyectos.</h2>
           <h5 className={classes.description}>
             This is the paragraph where you can write more details about your
             product. Keep you user engaged by providing meaningful information.
@@ -31,34 +31,74 @@ export default function ProductSection() {
           </h5>
         </GridItem>
       </GridContainer>
+      <br />
+      <br />
+      <br />
+      <br />
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Inversiones"
               icon={Chat}
               iconColor="info"
               vertical
             />
+            <h5 className={classes.description}>
+              Capex-Opex - Cash Flow.
+              Punto de equilibrio.
+              Alternativas.
+              Soluciones.
+              Opciones.
+              Presupuesto.
+            </h5>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Rentabilidad"
               icon={VerifiedUser}
               iconColor="success"
               vertical
             />
+            <h5 className={classes.description}>
+              Punto de equilibrio.
+              VAN TIN TOR.
+              Resultados.
+              Financiamiento.
+              Analisis de Sensibilidad.
+            </h5>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Costos"
               icon={Fingerprint}
               iconColor="danger"
               vertical
             />
+            <h5 className={classes.description}>
+              Punto de equilibrio.
+              VAN TIN TOR.
+              Resultados.
+              Financiamiento.
+              Analisis de Sensibilidad.
+            </h5>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Localizacion"
+              icon={Fingerprint}
+              iconColor="danger"
+              vertical
+            />
+            <h5 className={classes.description}>
+              Mercados de Exportacion.
+              Disponibilidad de Recursos.
+              Costos y Disponibilidad de Zonas.
+              Estructuras Impositivas y Legales.
+              Impacto Ambiental.
+              Medios de Transporte.
+              Energias.
+            </h5>
           </GridItem>
         </GridContainer>
       </div>

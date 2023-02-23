@@ -19,6 +19,8 @@ import Parallax from "/components/Parallax/Parallax.js";
 
 import SectionExamples from "/pages-sections/Components-Sections/SectionExamples.js";
 import SectionDownload from "/pages-sections/Components-Sections/SectionDownload.js";
+import SectionUs from "/pages-sections/Components-Sections/SectionUs.js";
+
 
 import styles from "/styles/jss/nextjs-material-kit/pages/components.js";
 
@@ -33,7 +35,7 @@ export default function Components(props) {
         // brand="NextJS Material Kit"
         rightLinks={<HeaderLinks />}
         fixed
-        color="transparent"
+        //color="transparent"        
         changeColorOnScroll={{
           height: 400,
           color: "white"
@@ -57,7 +59,7 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
 
-        <GridItem md={12} className={classes.textCenter}>
+        {/* <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">
             <a className={classes.link}>
               <Button color="primary" size="lg" simple>
@@ -65,10 +67,11 @@ export default function Components(props) {
               </Button>
             </a>
           </Link>
-        </GridItem>
+        </GridItem> */}
+        <SectionUs />
 
-        {/* <SectionExamples />
-        <SectionDownload /> */}
+        <SectionExamples />
+        <SectionDownload />
       </div>
       <Footer />
     </div>
