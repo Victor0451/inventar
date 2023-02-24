@@ -35,14 +35,14 @@ export default function Components(props) {
         // brand="NextJS Material Kit"
         rightLinks={<HeaderLinks />}
         fixed
-        //color="transparent"        
+        color="transparent"
         changeColorOnScroll={{
           height: 400,
           color: "white"
         }}
         {...rest}
       />
-      <Parallax image="/img/bkg.jpg">
+      <Parallax image="/img/bkg5.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem>

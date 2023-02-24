@@ -3,9 +3,13 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import {
+MonetizationOn,
+BusinessCenterSharp,
+MoneyOff,
+GpsFixed
+  
+} from "@material-ui/icons";
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
@@ -40,7 +44,7 @@ export default function ProyectSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Inversiones"
-              icon={Chat}
+              icon={MonetizationOn}
               iconColor="info"
               vertical
             />
@@ -56,7 +60,7 @@ export default function ProyectSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Rentabilidad"
-              icon={VerifiedUser}
+              icon={BusinessCenterSharp}
               iconColor="success"
               vertical
             />
@@ -71,7 +75,7 @@ export default function ProyectSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Costos"
-              icon={Fingerprint}
+              icon={MoneyOff}
               iconColor="danger"
               vertical
             />
@@ -86,8 +90,8 @@ export default function ProyectSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Localizacion"
-              icon={Fingerprint}
-              iconColor="danger"
+              icon={GpsFixed}
+              iconColor="primary"
               vertical
             />
             <h5 className={classes.description}>

@@ -3,9 +3,13 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import {
+  BookTwoTone,
+  AirplanemodeActiveOutlined
+  
+} from "@material-ui/icons";
+
+
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
@@ -35,12 +39,12 @@ export default function LogisticSection() {
       <br />
       <br />
       <br />
-      <div>
+      <div >
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={12} md={6}>
             <InfoArea
               title="Interna"
-              icon={Chat}
+              icon={BookTwoTone}
               iconColor="info"
               vertical
             />
@@ -56,10 +60,10 @@ export default function LogisticSection() {
               Costo.
             </h5>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={12} md={6}>
             <InfoArea
               title="Externa"
-              icon={VerifiedUser}
+              icon={AirplanemodeActiveOutlined}
               iconColor="success"
               vertical
             />

@@ -35,7 +35,7 @@ export default function SectionExamples() {
             <Link href="/proyectos">
               <a className={classes.link}>
                 <img
-                  src="/img/proyectos.webp"
+                  src="/img/proyectos.jpg"
                   alt="..."
                   className={
                     classes.imgRaised +
@@ -55,7 +55,7 @@ export default function SectionExamples() {
             <Link href="/logistica">
               <a className={classes.link}>
                 <img
-                  src="/img/logistica.webp"
+                  src="/img/logistica.jpg"
                   alt="..."
                   className={
                     classes.imgRaised +
