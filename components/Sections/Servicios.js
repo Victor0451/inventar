@@ -12,17 +12,15 @@ const Servicios = () => {
 
 
                     <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center clickme" onClick={() => { Router.push('/proyectosinversion') }}>
-                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg ">
+                        <div className="relative flex flex-col min-w-0 break-words bg-blueGray-50 w-full mb-8 shadow-lg rounded-lg ">
                             <div className="px-4 py-5 flex-auto ">
                                 <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                                     <i className="fas fa-chart-line"></i>
                                 </div>
                                 <h6 className="text-xl font-semibold">Proyectos de Inversion</h6>
                                 <p className="mt-2 mb-4 text-blueGray-500 ">
-                                    Los proyectos de inversión son iniciativas que buscan generar beneficios  mediante la utilización de recursos financieros
-                                    en una actividad publica, privada o  social. En otras palabras, se trata de un proceso mediante el cual se evalúa la viabilidad
-                                    de un proyecto con el fin de determinar si es conveniente invertir recursos financieros en él. Para un bien Social o para un
-                                    rendimiento económico.
+                                    Brindamos asesoramiento integral en la gestión de proyectos, desde la planificación y diseño hasta la ejecución y seguimiento. Nuestro equipo de consultores altamente
+                                    capacitados colabora estrechamente con los clientes para identificar objetivos, definir alcances, gestionar riesgos y asegurar la entrega exitosa de proyectos en tiempo y presupuesto.
                                 </p>
                             </div>
                         </div>
@@ -30,23 +28,22 @@ const Servicios = () => {
 
 
                     <div className="w-full md:w-4/12 px-4 text-center clickme" onClick={() => { Router.push('/mejoracontinua') }}>
-                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div className="relative flex flex-col min-w-0 break-words bg-blueGray-50 w-full mb-8 shadow-lg rounded-lg">
                             <div className="px-4 py-5 flex-auto">
                                 <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                                     <i className="fas fa-retweet"></i>
                                 </div>
                                 <h6 className="text-xl font-semibold">Mejora Continua</h6>
                                 <p className="mt-2 mb-4 text-blueGray-500">
-                                    Es un sistema de gestión y producción que tiene como objetivo alcanzar los más altos estándares de calidad, eficiencia y flexibilidad.
-                                    Muchas empresas en todo el mundo han adoptado
-                                    Mejora Continua y han alcanzado un alto nivel de excelencia en la fabricación y servicio al cliente.
+                                    Apoyamos a las organizaciones en la implementación de procesos de mejora continua para optimizar su eficiencia operativa y maximizar la calidad de sus productos y servicios.
+                                    Utilizamos herramientas y metodologías reconocidas, como Lean Six Sigma, para identificar áreas de mejora, eliminar desperdicios, reducir costos y aumentar la satisfacción del cliente.
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <div className="pt-6 w-full md:w-4/12 px-4 text-center clickme" onClick={() => { Router.push('/liderazgo') }}>
-                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div className="relative flex flex-col min-w-0 break-words bg-blueGray-50 w-full mb-8 shadow-lg rounded-lg">
                             <div className="px-4 py-5 flex-auto">
                                 <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                                     <i className="fas fa-users"></i>
@@ -62,7 +59,7 @@ const Servicios = () => {
                     </div>
 
                     <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center clickme" onClick={() => { Router.push('/logistica') }}>
-                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div className="relative flex flex-col min-w-0 break-words bg-blueGray-50 w-full mb-8 shadow-lg rounded-lg">
                             <div className="px-4 py-5 flex-auto">
                                 <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                                     <i className="fas fa-shipping-fast"></i>
@@ -78,7 +75,7 @@ const Servicios = () => {
                     </div>
 
                     <div className="w-full md:w-4/12 px-4 text-center clickme" onClick={() => { Router.push('/supplychain') }} >
-                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                        <div className="relative flex flex-col min-w-0 break-words bg-blueGray-50 w-full mb-8 shadow-lg rounded-lg">
                             <div className="px-4 py-5 flex-auto">
                                 <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                                     <i className="fas fa-link"></i>
@@ -92,15 +89,17 @@ const Servicios = () => {
                         </div>
                     </div>
 
-                    <div className="pt-6 w-full md:w-4/12 px-4 text-center clickme">
-                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                    <div className="pt-6 w-full md:w-4/12 px-4 text-center clickme" onClick={() => { Router.push('/ideacionnegocios') }}>
+                        <div className="relative flex flex-col min-w-0 break-words bg-blueGray-50 w-full mb-8 shadow-lg rounded-lg">
                             <div className="px-4 py-5 flex-auto">
                                 <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                                     <i className="fas fa-headphones"></i>
                                 </div>
-                                <h6 className="text-xl font-semibold">Asesoramiento Continuo</h6>
+                                <h6 className="text-xl font-semibold">Ideación de Negocios</h6>
                                 <p className="mt-2 mb-4 text-blueGray-500">
-                                    Siempre estamos en permanente contacto con nuestros clientes, para sastisfacer todas sus dudas y brinda un asesoramiento adecuado.
+                                    Colaboramos con emprendedores y empresas en la generación de ideas de negocios innovadoras y viables.
+                                    A través de técnicas de creatividad y análisis de mercado, ayudamos a nuestros clientes a identificar oportunidades,
+                                    desarrollar modelos de negocio sólidos y diseñar estrategias de lanzamiento al mercado.
                                 </p>
                             </div>
                         </div>
@@ -110,26 +109,19 @@ const Servicios = () => {
 
 
 
-                <div className="flex flex-wrap items-center mt-32">
+                <div className="flex flex-wrap items-center mt-20">
                     <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                        <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                            <i className="fas fa-user-friends text-xl"></i>
-                        </div>
-                        <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                            Trabaja con nosotros, no lo dudes.
-                        </h3>
-                        <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                            Para nosotros no sos un cliente, sos un amigo. Escuchamos tus propuestas y te
-                            asesoramos para que puedas triunfar con tus proyectos.
+
+                        <p className="text-lg font-light leading-relaxed  mb-4 text-blueGray-600">
+                            Nuestro enfoque se basa en un profundo conocimiento del mercado, las mejores prácticas de gestión y las tendencias actuales. Trabajamos en estrecha colaboración con nuestros clientes,
+                            adaptando nuestros servicios a sus necesidades específicas y brindando soluciones personalizadas
                         </p>
-                        <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                            Tenemos una gran gama de herramientas que se ajustan a tus nesecidades.
-                        </p>
+
 
                     </div>
 
                     <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+                        <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                             <img
                                 alt="..."
                                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Image } from '../Image'
+
 
 const Contenido = () => {
     return (
@@ -34,9 +36,7 @@ const Contenido = () => {
                     </div>
                     <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                         <div className="md:pr-12">
-                            <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blueGray-200">
-                                <i className="fas fa-warehouse text-xl"></i>
-                            </div>
+
                             <h3 className="text-3xl font-semibold">¿Por que Proyectos de Inversion?</h3>
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                 Los proyectos de inversión son iniciativas que buscan generar beneficios  mediante la utilización de recursos financieros en una actividad publica,
@@ -552,6 +552,30 @@ const Contenido = () => {
                             </ul>
                         </div>
                     </div>
+
+
+                    <Image
+                        url={"ejemplos/proyectos/1.webp"}
+                        alt="Proyectos de Inversion"
+                    />
+
+                    <Image
+                        url={"ejemplos/proyectos/2.jpg"}
+                        alt="Proyectos de Inversion"
+                    />
+
+                    <Image
+                        url={"ejemplos/proyectos/3.avif"}
+                        alt="Proyectos de Inversion"
+                    />
+
+                    <Image
+                        url={"ejemplos/proyectos/4.png"}
+                        alt="Proyectos de Inversion"
+                    />
+
+
+
                 </div>
             </div>
 

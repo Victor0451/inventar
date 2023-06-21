@@ -1,7 +1,6 @@
 import React from 'react'
 import { Image } from '../Image'
 
-
 const Contenido = () => {
     return (
         <section className="relative py-20">
@@ -31,19 +30,18 @@ const Contenido = () => {
                         <img
                             alt="..."
                             className="max-w-full rounded-lg shadow-lg"
-                            src="img/lidercont.jpg"
+                            src="img/ideacioncont.jpg"
                         />
                     </div>
                     <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                         <div className="md:pr-12">
-
-                            <h3 className="text-3xl font-semibold">Liderazgo</h3>
+                            <h3 className="text-3xl font-semibold">¿Que es la ideación de negocios?</h3>
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                                El entrenamiento Leadership Engagement Alignment Performance (LEAP) está diseñado para ayudar a las empresas a desarrollar habilidades de liderazgo
-                                y mejorar el rendimiento empresarial mediante la implementación de la metodología lean.
+                                La ideación de negocios es el proceso creativo y sistemático de generar ideas para nuevos emprendimientos o proyectos empresariales.
+                                Consiste en el desarroollo y la exploración de conceptos e iniciativas innovadoras que tienen el potencial de convertirse en negocios exitosos.
                             </p>
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                                A continuacion, las pautas para ejercer un buen liderazgo:
+                                La estructuracion de una buena ideación se basa en:
                             </p>
 
                         </div>
@@ -62,7 +60,7 @@ const Contenido = () => {
 
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                 <u>
-                                    Aprender a Aprender:
+                                    Oportunidades:
                                 </u>
                             </p>
                             <ul className="list-none mt-3">
@@ -76,7 +74,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Estilos de Aprendisajes
+                                                Observaciones
                                             </h4>
                                         </div>
 
@@ -91,7 +89,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Aprendisaje en Adultos
+                                                Datos de mercado
                                             </h4>
                                         </div>
                                     </div>
@@ -105,7 +103,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Herramientas para la participación
+                                                Abordaje del problema
                                             </h4>
                                         </div>
                                     </div>
@@ -119,7 +117,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Comunicación  visual
+                                                Necesidades Insastisfechas
                                             </h4>
                                         </div>
                                     </div>
@@ -133,21 +131,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Preparacion de seciones
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                OARRs
+                                                Contexto
                                             </h4>
                                         </div>
                                     </div>
@@ -164,7 +148,7 @@ const Contenido = () => {
 
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                 <u>
-                                    Liderazgo Facilitativo:
+                                    Generacion de Ideas
                                 </u>
                             </p>
                             <ul className="list-none mt-3">
@@ -178,7 +162,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Que es el Liderazgo Facilitativo
+                                                Analogias
                                             </h4>
                                         </div>
 
@@ -193,7 +177,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Modelo de Liderazgo Facilitativo
+                                                Inverse Brainstorming
                                             </h4>
                                         </div>
                                     </div>
@@ -207,7 +191,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Formas de Avance de Equipos
+                                                Brainstorming
                                             </h4>
                                         </div>
                                     </div>
@@ -221,7 +205,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Herramientas para solución de problemas
+                                                Matriz Forzada
                                             </h4>
                                         </div>
                                     </div>
@@ -235,7 +219,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Manejo de Gente difícil
+                                                Inshigt
                                             </h4>
                                         </div>
                                     </div>
@@ -249,7 +233,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Sesiones estancadas
+                                                Seis Sombreros
                                             </h4>
                                         </div>
                                     </div>
@@ -266,7 +250,7 @@ const Contenido = () => {
 
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                 <u>
-                                    Equipos de Alto Rendimiento:
+                                    Propuestas de Valor
                                 </u>
                             </p>
                             <ul className="list-none mt-3">
@@ -280,7 +264,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Ventana de Johari
+                                                Propuesta de Negocio
                                             </h4>
                                         </div>
 
@@ -295,7 +279,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Roles dentro de los equipos
+                                                Necesidad del cliente
                                             </h4>
                                         </div>
                                     </div>
@@ -309,7 +293,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Estilo de Liderazgo
+                                                Resolución del problema
                                             </h4>
                                         </div>
                                     </div>
@@ -323,25 +307,12 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Juegos de Liderazgo
+                                                Valor al cliente
                                             </h4>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="py-2">
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                Modelo de alto desempeño
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -358,7 +329,7 @@ const Contenido = () => {
                             </div>
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                 <u>
-                                    Planificacion Estrategica:
+                                    Modelo de Negocio
                                 </u>
                             </p>
                             <ul className="list-none mt-3">
@@ -372,7 +343,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Porque Falla la Estrategia.
+                                                Canvas
                                             </h4>
                                         </div>
 
@@ -387,9 +358,70 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Proceso de Vision Estrategica
+                                                Generación de Ingresos
                                             </h4>
                                         </div>
+                                    </div>
+                                </li>
+                                <li className="py-2">
+                                    <div className="flex items-center">
+                                        <div>
+                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                                                <i class="fas fa-hand-point-right"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-blueGray-500">
+                                                Llegada al cliente
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="py-2">
+                                    <div className="flex items-center">
+                                        <div>
+                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                                                <i class="fas fa-hand-point-right"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-blueGray-500">
+                                                Gestión de Negociación
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="w-full md:w-4/12 ml-auto mr-auto px-4 ">
+                        <div className="md:pr-12 ">
+                            <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blueGray-200">
+                                <i className="fas fa-sign-in-alt"></i>
+                            </div>
+
+                            <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                                <u>
+                                    Planeacion Estrategica
+                                </u>
+                            </p>
+                            <ul className="list-none mt-3">
+                                <li className="py-2">
+
+                                    <div className="flex items-center">
+                                        <div>
+                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                                                <i class="fas fa-hand-point-right"></i>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-blueGray-500">
+                                                Proceso de Visión Estratégica
+                                            </h4>
+                                        </div>
+
                                     </div>
                                 </li>
                                 <li className="py-2">
@@ -415,7 +447,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Ejecucion Estrategica
+                                                Ejecución Estratégica
                                             </h4>
                                         </div>
                                     </div>
@@ -429,7 +461,7 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Liderazgo Estrategico
+                                                Liderazgo Estratégico
                                             </h4>
                                         </div>
                                     </div>
@@ -443,145 +475,35 @@ const Contenido = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-blueGray-500">
-                                                Comunicación de la Esttrategia
+                                                Comunicación de la Estrategia
                                             </h4>
                                         </div>
                                     </div>
                                 </li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <div className="w-full md:w-4/12 ml-auto mr-auto px-4 ">
-                        <div className="md:pr-12 ">
-                            <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blueGray-200">
-                                <i className="fas fa-sign-in-alt"></i>
-                            </div>
-
-                            <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                                <u>
-                                    Auditoria & Consultoria Interna:
-                                </u>
-                            </p>
-                            <ul className="list-none mt-3">
-                                <li className="py-2">
-
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                Rol de Coaching
-                                            </h4>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                Comprension profunda
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                Lineas y Rueda de vida
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                Modelo Grow
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                Auditando como Coach
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                Conversaciones difíciles
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="flex items-center">
-                                        <div>
-                                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                                                <i class="fas fa-hand-point-right"></i>
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <h4 className="text-blueGray-500">
-                                                Consultor 360°
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </div>
 
 
                     <Image
-                        url={"ejemplos/liderazgo/1.jpg"}
-                        alt="Liderazgo"
+                        url={"ejemplos/ideacion/1.png"}
+                        alt="Ideacion Negocios"
                     />
 
                     <Image
-                        url={"ejemplos/liderazgo/2.avif"}
-                        alt="Liderazgo"
+                        url={"ejemplos/ideacion/2.jpg"}
+                        alt="Ideacion Negocios"
                     />
 
                     <Image
-                        url={"ejemplos/liderazgo/3.webp"}
-                        alt="Liderazgo"
+                        url={"ejemplos/ideacion/3.png"}
+                        alt="Ideacion Negocios"
+                    />
+
+                    <Image
+                        url={"ejemplos/ideacion/4.jpg"}
+                        alt="Ideacion Negocios"
                     />
 
                 </div>

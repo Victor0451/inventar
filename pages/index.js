@@ -7,6 +7,7 @@ import Footer from "components/Footers/Footer.js";
 import Hero from "components/Sections/Hero";
 import Servicios from "components/Sections/Servicios";
 import Contacto from "components/Sections/Contacto";
+import Nosotros from "components/Sections/Nosotros"
 
 
 export default function Landing() {
@@ -20,6 +21,8 @@ export default function Landing() {
       <main>
 
         <Hero />
+
+        <Nosotros />
 
         <Servicios />
 

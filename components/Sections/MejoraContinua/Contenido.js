@@ -1,4 +1,6 @@
 import React from 'react'
+import { Image } from '../Image'
+
 
 const Contenido = () => {
     return (
@@ -34,9 +36,7 @@ const Contenido = () => {
                     </div>
                     <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                         <div className="md:pr-12">
-                            <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blueGray-200">
-                                <i className="fas fa-warehouse text-xl"></i>
-                            </div>
+                          
                             <h3 className="text-3xl font-semibold">¿Que es la mejora continua?</h3>
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                 Es un sistema de gestión y producción que tiene como objetivo alcanzar los más altos estándares de calidad, eficiencia y flexibilidad.
@@ -554,6 +554,28 @@ const Contenido = () => {
                             </ul>
                         </div>
                     </div>
+
+
+                    <Image
+                        url={"ejemplos/mejora/1.png"}
+                        alt="Mejora Continua"
+                    />
+
+                    <Image
+                        url={"ejemplos/mejora/2.jpg"}
+                        alt="Mejora Continua"
+                    />
+
+                    <Image
+                        url={"ejemplos/mejora/3.png"}
+                        alt="Mejora Continua"
+                    />
+
+                    <Image
+                        url={"ejemplos/mejora/4.jpg"}
+                        alt="Mejora Continua"
+                    />
+
                 </div>
             </div>
 

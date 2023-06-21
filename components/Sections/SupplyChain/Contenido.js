@@ -1,4 +1,6 @@
 import React from 'react'
+import { Image } from '../Image'
+
 
 const Contenido = () => {
     return (
@@ -34,9 +36,7 @@ const Contenido = () => {
                     </div>
                     <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                         <div className="md:pr-12">
-                            <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blueGray-200">
-                                <i className="fas fa-warehouse text-xl"></i>
-                            </div>
+
                             <h3 className="text-3xl font-semibold">Supply Chain</h3>
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                                 Mejorar la cadena de suministro implica buscar formas de optimizar y eficientizar cada uno de estos procesos para reducir costos, aumentar la velocidad
@@ -450,6 +450,24 @@ const Contenido = () => {
                             </ul>
                         </div>
                     </div>
+
+
+                    <Image
+                        url={"ejemplos/supply/1.png"}
+                        alt="Supply "
+                    />
+
+                    <Image
+                        url={"ejemplos/supply/2.png"}
+                        alt="Supply "
+                    />
+
+                    <Image
+                        url={"ejemplos/supply/3.jpg"}
+                        alt="Supply "
+                    />
+
+
                 </div>
             </div>
 
